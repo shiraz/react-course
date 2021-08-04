@@ -5,6 +5,7 @@ import MeetupItem from "./MeetupItem";
 import classes from "./MeetupList.module.css";
 
 const MeetupList = (props) => {
+  console.info('---TEST', props);
   return (
     <ul className={classes.list}>
       {props.meetups.map((meetup) => (

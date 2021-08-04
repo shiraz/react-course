@@ -23,7 +23,7 @@ const NewMeetupForm = (props) => {
           description: enteredDesc,  
         };
 
-        console.log('---TEST', meetupData);
+        props.onAddMeetup(meetupData);
     };
 
     return (
